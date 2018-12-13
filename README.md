@@ -1,5 +1,5 @@
-# paper-turtle
+# paper-azur
 
-**TurtleCoin Paper Wallet Generator**
+**AZUR Paper Wallet Generator**
 
-https://turtlecoin.lol/wallet
+https://getazur.org/wallet
