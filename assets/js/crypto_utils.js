@@ -1551,11 +1551,11 @@ return{_strlen:lb,_ge_mul8:Va,_keccak:db,_ge_scalarmult:Ta,_ge_fromfe_frombytes_
 
 var salt = '4721283fee2db41e1f2fc50ea9f6d783'; // IMPORTANT: never change it, otherwise it will be impossible to restore previously generated wallets!
 var config = {
-    coinUnitPlaces: 12,
-    coinSymbol: 'TRTL',
-    coinName: 'TurtleCoin',
-    coinUriPrefix: 'turtlecoin:',
-    addressPrefix: 3914525
+    coinUnitPlaces: 2,
+    coinSymbol: 'AZUR',
+    coinName: 'Azur',
+    coinUriPrefix: 'Azur:',
+    addressPrefix: 18
 };
 var cnUtil = (function(initConfig) {
     //var config = $.extend({}, initConfig);
@@ -2013,7 +2013,7 @@ var cnUtil = (function(initConfig) {
         }
 
         // Quick check to see that it's valid
-        if((address_b58.length != 99 && address_b58.length != 187) || address_b58.substring(0,4) != "TRTL") {
+        if((address_b58.length != 95 && address_b58.length != 187) || address_b58.substring(0,4) != "A") {
             return output;
         }
 
